@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    string firstName, lastName, fullName, meal, movie;
+    cout << "What is your first name?" << endl;
+	cin >> firstName;
+	cout << "What is your last name?" << endl;
+	cin >> lastName;
+	cout << "What is your full name?" << endl;
+	getline(cin, fullName);
+	cin >>fullName;
+	cout << "What is your favorite meal?" << endl;
+	cin >> meal;
+	cout << "What is your favorite movie?" << endl;
+	cin >> movie;
+	cout << "Your first name is: " << firstName << "Your last name is: " << lastName << "Your fullname is: " <<fullName<< "Your favorite meal is: " <<meal<< " Your favorite movie is: "<<meal<< endl;
+
+    return 0;
